@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(images/waves_.jpg) center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 40px black;
+}
+
+.headerimg {
+    width: 1000px;
+    margin: auto;
+    background: url(images/headerbg.jpg) center;
+    background-size: cover;
+}
+
+.main1 {
+    background: url(images/gridtile.png);
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 300px;
+    height: 200px;
+}
+
+.main1heading {
+    color: white;
+    text-align: center;
+    width: 400px;
+    margin: 87px auto;
+}
+
+.main1heading h1 {
+    padding: 30px 0;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    border-top: 2px solid rgb(39 224 255);
+    border-bottom: 2px solid rgb(39 224 255);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 13px 40px;
+    border-right: 2px solid white;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 19px;
+}
+
+
+.main2 {
+    background: rgba(0, 0, 0, 0.5) url(images/3.jpg) center fixed;
+    background-size: cover;
+    height: 321px;
+    border-top: 10px solid rgb(39, 94, 214);
+    display: flex;
+    align-items: center;
+    background-blend-mode: darken;
+}
+
+.main2 p {
+    border: 9px solid rgb(255, 255, 255);
+    width: 94px;
+    color: white;
+    margin: auto;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item {
+    background: white;
+    text-align: center;
+    padding: 60px 0px;
+    color: rgb(24 45 85);
+}
+
+.item p {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.item img {
+    margin-top: 90px;
+}
+
+.backtotop {
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+
+.main4 {
+    background: rgba(0, 0, 0, 0.6) url(images/1.jpg) center fixed;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    background-blend-mode: darken;
+}
+
+.main4 p {
+    line-height: 30px;
+    font-size: 17px;
+    border: 9px solid rgb(255, 255, 255);
+    color: white;
+    width: 170px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.servics {
+    background: rgba(0, 0, 0, 0.6) url(images/2.jpg) center fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.traning {
+    background: rgba(0, 0, 0, 0.6) url(images/banner-7.jpg) center fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+
+.about {
+    background: rgba(0, 0, 0, 0.6) url(images/4.jpg) center fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.aboutp h1 {
+    padding: 10px;
+}
+
+.fbacktotop {
+    font-size: 30px;
+    text-align: center;
+    padding: 17px;
+    color: white;
+    background: rgba(0, 0, 0, 0.523);
+}
+
+.fbacktotop i {
+    font-size: 10px;
+}
