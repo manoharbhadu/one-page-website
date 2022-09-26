@@ -169,11 +169,24 @@ body {
 .fbacktotop {
     font-size: 30px;
     text-align: center;
-    padding: 17px;
+    padding: 17px 0 0 0;
     color: white;
     background: rgba(0, 0, 0, 0.523);
 }
 
+.backtotop a{
+    text-decoration: none;
+    color: black;
+}
+
 .fbacktotop i {
     font-size: 10px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
